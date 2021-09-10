@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
-import blackboard from '../images/blackboard2.jpeg'
+import blackboard from '../images/true-blackboard.jpg'
 import gs from '../images/gatsby-icon.png'
 import Content from './Content';
 import People from './People'
