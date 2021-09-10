@@ -8,13 +8,12 @@ const Header = props => (
     </div>
     <div className="content">
       <div className="inner">
-        <h1>Dimension</h1>
+        <h1>Berkeley Math Bootcamp</h1>
         <p>
-          A fully responsive site template designed by{' '}
-          <a href="https://html5up.net">HTML5 UP</a> and released
+          A 5-day mathematics intensive at the {' '}
+          <a href="https://chemistry.berkeley.edu/home">UC Berkeley College of Chemistry</a>. Designed {' '}
           <br />
-          for free under the{' '}
-          <a href="https://html5up.net/license">Creative Commons</a> license.
+          by, designed for, and run by graduate students.{' '}
         </p>
       </div>
     </div>
@@ -23,28 +22,28 @@ const Header = props => (
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('intro')
-            }}
-          >
-            Intro
-          </button>
-        </li>
-        <li>
-          <button
-            onClick={() => {
-              props.onOpenArticle('work')
-            }}
-          >
-            Work
-          </button>
-        </li>
-        <li>
-          <button
-            onClick={() => {
               props.onOpenArticle('about')
             }}
           >
             About
+          </button>
+        </li>
+        <li>
+          <button
+            onClick={() => {
+              props.onOpenArticle('people')
+            }}
+          >
+            People
+          </button>
+        </li>
+        <li>
+          <button
+            onClick={() => {
+              props.onOpenArticle('content')
+            }}
+          >
+            Content
           </button>
         </li>
         <li>
