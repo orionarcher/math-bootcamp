@@ -11,9 +11,9 @@ const Header = props => (
         <h1>Berkeley Math Bootcamp</h1>
         <p>
           A 5-day mathematics intensive at the {' '}
-          <a href="https://chemistry.berkeley.edu/home">UC Berkeley College of Chemistry</a>. Designed {' '}
+          <a href="https://chemistry.berkeley.edu/home">UC Berkeley College of Chemistry</a>.{' '}
           <br />
-          by, designed for, and run by graduate students.{' '}
+          Designed by and designed for graduate students.{' '}
         </p>
       </div>
     </div>

@@ -1,56 +1,65 @@
 import React from 'react'
 import gs from '../images/gatsby-icon.png'
-
+import orion from '../images/instructors/Orion.jpg'
+import dipti from '../images/instructors/Dipti.jpg'
+import elliot from '../images/instructors/Elliot.jpg'
+import avishek from '../images/instructors/Avishek.jpg'
+import rachel from '../images/instructors/Rachel.jpg'
+import sonja from '../images/instructors/Sonja.jpg'
+import richard from '../images/instructors/Richard.jpg'
+import bailey from '../images/instructors/Bailey.jpg'
+import aditya from '../images/instructors/Aditya.jpg'
+import tarini from '../images/instructors/Tarini.jpg'
 
 const  peopleu = [
     {
         name: "Orion Cohen",
-        photo: "../gatsby-icon.png",
+        photo: orion,
         email: "orion@lbl.gov",
     },
     {
         name: "Dipti Jasrasaria",
-        photo: "../gatsby-icon.png",
+        photo: dipti,
         email: "djasrasaria@berkeley.edu",
     },
     {
         name: "Elliot Rossome",
-        photo: "../gatsby-icon.png",
+        photo: elliot,
         email: "elliot_rossomme@berkeley.edu",
     },
     {
         name: "Avishek Das",
-        photo: "images/gatsby-icon.png",
+        photo: avishek,
         email: "avishek_das@berkeley.edu",
     },
     {
         name: "Rachel Clune",
-        photo: "images/gatsby-icon.png",
+        photo: rachel,
         email: "rclune4b@berkeley.edu",
     },
     {
         name: "Sonja Bumann",
-        photo: "../gatsby-icon.png",
+        photo: sonja,
         email: "skbumann@berkeley.edu",
     },
     {
         name: "Richard Kang",
-        photo: "../gatsby-icon.png",
+        photo: richard,
         email: "richard.kang@berkeley.edu",
     },
     {
         name: "Bailey Nebgen",
-        photo: "../gatsby-icon.png",
+        photo: bailey,
         email: "email@berkeley.edu",
     },
     {
         name: "Aditya Singh",
-        photo: "images/gatsby-icon.png",
+        photo: aditya,
         email: "ansingh@berkeley.edu",
     },
     {
         name: "Tarini Hardikar",
-        photo: "images/gatsby-icon.png",
+        photo: tarini,
         email: "tarinihardikar@berkeley.edu",
     }
 ];
@@ -63,22 +72,13 @@ export default class People extends React.Component {
     const people_divs = people.map((person) => {
         // TODO find place to store PDFs
         return (<div class='person'>
-                    <img class="person-picture" src={gs} alt="Instructor"></img>
+                    <img class="person-picture" src={person.photo} alt="Instructor"></img>
                     <h3 class="person-name">{person.name}</h3>
                     {/* <p class="person-email">{person.email}</p> */}
 
                 </div>)
     });
 
-    const people_divs2 = people.map((person) => {
-        // TODO find place to store PDFs
-        return (<div class='person'>
-                    <img class="person-picture" src={gs} alt="Instructor"></img>
-                    <h3 class="person-name">{person.name}</h3>
-                    {/* <p class="person-email">{person.email}</p> */}
-
-                </div>)
-    });
 
     return (
         <div>

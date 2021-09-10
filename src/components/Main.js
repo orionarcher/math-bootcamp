@@ -71,7 +71,23 @@ class Main extends React.Component {
           {close}
         </article>
 
+
         <article
+          id="contact"
+          className={`${this.props.article === 'contact' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="major">Contact</h2>
+          <p>
+            Contact the organizers of the bootcamp at <u>ucbmathbootcamp@gmail.com</u>. We'd love to 
+            hear from you!
+          </p>
+          {close}
+        </article>
+
+        {/* <article
           id="contact"
           className={`${this.props.article === 'contact' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
@@ -103,7 +119,7 @@ class Main extends React.Component {
           </form>
 
           {close}
-        </article>
+        </article> */}
       </div>
     )
   }
