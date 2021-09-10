@@ -1,0 +1,36 @@
+
+.person {
+    display: flex;
+    flex-direction: column;
+    width: 140pt;
+    font-size: 12px;
+    color: _palette(fg-bold);
+    letter-spacing: _font(letter-spacing);
+    align-items: center;
+    margin: 10px 0px;
+    padding: 0px 5px;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+.person-picture {
+    width: 80px;
+    margin: 10px 0px;
+}
+
+.person-name {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.person-email {
+    font-size: 10px;
+    margin-bottom: 0px;
+}
+
+#people_grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
