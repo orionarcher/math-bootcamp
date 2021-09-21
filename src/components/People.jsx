@@ -1,10 +1,10 @@
 import React from 'react'
 import gs from '../images/gatsby-icon.png'
 import orion from '../images/instructors/Orion.jpg'
-import dipti from '../images/instructors/Dipti.jpg'
-import elliot from '../images/instructors/Elliot.jpg'
+import dipti from '../images/instructors/Dipti.png'
+import elliot from '../images/instructors/Elliot.png'
 import avishek from '../images/instructors/Avishek.jpg'
-import rachel from '../images/instructors/Rachel.jpg'
+import rachel from '../images/instructors/Rachel.png'
 import sonja from '../images/instructors/Sonja.jpg'
 import richard from '../images/instructors/Richard.jpg'
 import bailey from '../images/instructors/Bailey.jpg'
@@ -132,7 +132,7 @@ export default class People extends React.Component {
                     {leaderDivs}
                 </div>
             <h3 className="minor align-center">Founders</h3>
-                <div class="people_grid">
+                <div class="people_grid founder">
                     {founderDivs}
                 </div>    
             <h3 className="minor align-center">Alumni</h3>
