@@ -103,10 +103,23 @@ export default class People extends React.Component {
 
     function peopleDivMaker(peopleArray) {
         return peopleArray.map((person) => {
-            return (<div class='person'>
-                        <img class="person-picture" src={person.photo} alt="Instructor"></img>
-                        <h3 class="person-name">{person.name}</h3>
-                    </div>)
+            let classes = "person-picture";
+            if (person.website) {
+                return (<div class='person has-website'>
+                            <a class='person-holder'>
+                                <img class="person-picture has-website" src={person.photo} alt="Instructor"></img>
+                                <div class="logo-holder">
+                                    <span className="icon fa-linkedin website"></span>
+                                </div>
+                            </a>
+                            <h3 class="person-name">{person.name}</h3>
+                        </div>)
+            } else {
+                return (<div class='person'>
+                            <img class="person-picture" src={person.photo} alt="Instructor"></img>
+                            <h3 class="person-name">{person.name}</h3>
+                        </div>)
+            }
        });
     }
     
