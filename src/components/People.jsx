@@ -1,5 +1,4 @@
 import React from 'react'
-import gs from '../images/gatsby-icon.png'
 import orion from '../images/instructors/Orion.jpg'
 import dipti from '../images/instructors/Dipti.png'
 import elliot from '../images/instructors/Elliot.png'
@@ -106,10 +105,10 @@ export default class People extends React.Component {
             let classes = "person-picture";
             if (person.website) {
                 return (<div class='person has-website'>
-                            <a class='person-holder' href={person.website}>
+                            <a class='person-holder' href={person.website} target="_blank" rel="noreferrer" >
                                 <img class="person-picture has-website" src={person.photo} alt="Instructor"></img>
                                 <div class="logo-holder">
-                                    <span className="icon fa-linkedin website"></span>
+                                    <span className="icon fa-address-card website"></span>
                                 </div>
                             </a>
                             <h3 class="person-name">{person.name}</h3>

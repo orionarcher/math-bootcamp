@@ -1,5 +1,4 @@
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
 
 
 const  notes = [
@@ -115,7 +114,7 @@ const  exercises = [
                  Math Bootcamp, please contact us. </p>
                  
             <h3 className="minor">Full Text</h3>
-                <a href={"https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/BootCamp2021_new.pdf"} target="_blank">Bootcamp Packet 2021</a>
+                <a href={"https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/BootCamp2021_new.pdf"} target="_blank" rel="noreferrer" >Bootcamp Packet 2021</a>
                 <p> </p>
             <h3 className="minor">Notes</h3>
             <ol>
