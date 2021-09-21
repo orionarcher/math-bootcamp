@@ -153,6 +153,7 @@ export default class People extends React.Component {
                     {founderDivs}
                 </div>    
             <h3 className="minor align-center">Alumni</h3>
+            <p>None</p>
 
             
         </div>
