@@ -28,6 +28,10 @@
     background-color: rgb(122, 41, 41);
 }
 
+.icon.website:hover {
+    background-color: rgb(148, 52, 52);
+}
+
 .person-holder {
     display: flex;
     flex-direction: row;
@@ -50,6 +54,10 @@
     margin: 10px 0px;
     border-radius: 50%;
     filter: grayscale(40%);
+}
+
+.person-picture.has-website:hover {
+    filter: grayscale(0%);
 }
 
 .person-name {

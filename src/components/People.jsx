@@ -106,7 +106,7 @@ export default class People extends React.Component {
             let classes = "person-picture";
             if (person.website) {
                 return (<div class='person has-website'>
-                            <a class='person-holder'>
+                            <a class='person-holder' href={person.website}>
                                 <img class="person-picture has-website" src={person.photo} alt="Instructor"></img>
                                 <div class="logo-holder">
                                     <span className="icon fa-linkedin website"></span>
