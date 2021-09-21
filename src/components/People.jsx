@@ -63,15 +63,42 @@ const  peopleu = [
         email: "tarinihardikar@berkeley.edu",
     }
 ];
+// alphabetize
 const people = peopleu.sort((a, b) => a.name.split(' ')[1] > b.name.split(' ')[1] ? 1 : -1)
-
+const leaderNames = [
+    "Orion Cohen", 
+    "Dipti Jasrasaria", 
+    "Elliot Rossomme",
+    "Rachel Clune", 
+    "Avishek Das",
+    "Tarini Hardikar",
+    "Aditya Singh",
+    "Richard Kang",
+    "Sonja Bumann",
+    "Bailey Nebgen",
+]
+const leaders = people.filter(person => leaderNames.includes(person.name))
+const lecturerNames = [
+    "Orion Cohen", 
+    "Dipti Jasrasaria", 
+    "Elliot Rossomme",
+    "Rachel Clune", 
+    "Avishek Das",
+]
+const lecturers = people.filter(person => lecturerNames.includes(person.name))
+const founderNames = [
+    "Orion Cohen", 
+    "Dipti Jasrasaria", 
+    "Elliot Rossomme",
+    "Avishek Das",
+]
+const founders = people.filter(person => founderNames.includes(person.name))
 
 export default class People extends React.Component {
   render() {
 
-    function peopleDivMaker (peopleArray) {
-        selected = people.filter(person.name)
-        temper = people.map((person) => {
+    function peopleDivMaker(peopleArray) {
+        return peopleArray.map((person) => {
             return (<div class='person'>
                         <img class="person-picture" src={person.photo} alt="Instructor"></img>
                         <h3 class="person-name">{person.name}</h3>
@@ -79,12 +106,9 @@ export default class People extends React.Component {
        });
     }
     
-    const leader_divs = people.map((person) => {
-        return (<div class='person'>
-                    <img class="person-picture" src={person.photo} alt="Instructor"></img>
-                    <h3 class="person-name">{person.name}</h3>
-                </div>)
-    });
+    const leaderDivs = peopleDivMaker(leaders);
+    const lecturerDivs = peopleDivMaker(lecturers);
+    const founderDivs = peopleDivMaker(founders);
 
 
     return (
@@ -101,12 +125,16 @@ export default class People extends React.Component {
             </p>
             <h3 className="minor align-center">Content Developers and Lecturers</h3>
                 <div class="people_grid">
-                    {leader_divs}
+                    {lecturerDivs}
                 </div>
             <h3 className="minor align-center">Discussion Leaders</h3>
-            
+                <div class="people_grid">
+                    {leaderDivs}
+                </div>
             <h3 className="minor align-center">Founders</h3>
-            
+                <div class="people_grid">
+                    {founderDivs}
+                </div>    
             <h3 className="minor align-center">Alumni</h3>
 
             
