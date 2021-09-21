@@ -16,11 +16,13 @@ const  peopleu = [
         name: "Orion Cohen",
         photo: orion,
         email: "orion@lbl.gov",
+        website: "orioncohen.com",
     },
     {
         name: "Dipti Jasrasaria",
         photo: dipti,
         email: "djasrasaria@berkeley.edu",
+        website: "diptijasrasaria.com",
     },
     {
         name: "Elliot Rossomme",
@@ -31,11 +33,13 @@ const  peopleu = [
         name: "Avishek Das",
         photo: avishek,
         email: "avishek_das@berkeley.edu",
+        website: "https://kavli.berkeley.edu/avishek-das",
     },
     {
         name: "Rachel Clune",
         photo: rachel,
         email: "rclune4b@berkeley.edu",
+        website: "https://www.linkedin.com/in/rclune/",
     },
     {
         name: "Sonja Bumann",
