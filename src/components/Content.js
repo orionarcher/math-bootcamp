@@ -112,7 +112,7 @@ const  exercises = [
             <p> We hope this content is useful for students, instructors, and anyone in between. 
                 As published, this content is intended for personal use only. If you would like 
                 to include this work in any other capacity, such as the construction of your own
-                 Math Bootcamp, please obtain written permission by contacting us here. </p>
+                 Math Bootcamp, please contact us. </p>
                  
             <h3 className="minor">Full Text</h3>
                 <a href={"https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/BootCamp2021_new.pdf"} target="_blank">Bootcamp Packet 2021</a>
