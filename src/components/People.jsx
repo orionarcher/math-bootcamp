@@ -16,13 +16,13 @@ const  peopleu = [
         name: "Orion Cohen",
         photo: orion,
         email: "orion@lbl.gov",
-        website: "orioncohen.com",
+        website: "https://orioncohen.com/",
     },
     {
         name: "Dipti Jasrasaria",
         photo: dipti,
         email: "djasrasaria@berkeley.edu",
-        website: "diptijasrasaria.com",
+        website: "https://diptijasrasaria.com/",
     },
     {
         name: "Elliot Rossomme",
