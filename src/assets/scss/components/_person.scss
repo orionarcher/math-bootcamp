@@ -21,9 +21,10 @@
 
 .icon.website {
     position: relative;
+    font-size: 14px;
     bottom: -1px;
     margin: 0px 0px 0px 0px;
-    padding: 4px 4px 4px 8px;
+    padding: 5px 3px 5px 5px;
     border-radius: 100%;
     background-color: rgb(122, 41, 41);
 }
@@ -58,7 +59,7 @@
     filter: grayscale(40%);
 }
 
-.person-picture.has-website:hover {
+.person-picture:hover {
     filter: grayscale(0%);
 }
 
