@@ -4,154 +4,118 @@ import pic01 from '../images/pic01.jpg'
 
 const  notes = [
     {
-        name: "Multivariable Calculus (Notes).pdf",
+        name: "Multivariable Calculus",
         url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/notes/1.+Multivariable+Calculus+(Notes).pdf"
     },
     {
-        name: "Functions and Approximations (Notes).pdf",
+        name: "Functions and Approximations",
         url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/notes/2.+Functions+and+Approximations+(Notes).pdf"
     },
     {
-        name: "Python (Notes).pdf",
+        name: "Python",
         url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/notes/3.+Python+(Notes).pdf"
     },
     {
-        name: "Linear Algebra 1 (Notes).pdf",
+        name: "Linear Algebra 1",
         url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/notes/4.+Linear+Algebra+1+(Notes).pdf"
     },
     {
-        name: "Linear Algebra 2 (Notes).pdf",
+        name: "Linear Algebra 2",
         url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/notes/5.+Linear+Algebra+2+(Notes).pdf"
     },
     {
-        name: "Linear Algebra 3 (Notes).pdf",
+        name: "Linear Algebra 3",
         url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/notes/6.+Linear+Algebra+3+(Notes).pdf"
     },
     {
-        name: "Fourier Analysis (Notes).pdf",
+        name: "Fourier Analysis",
         url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/notes/7.+Fourier+Analysis+(Notes).pdf"
     },
     {
-        name: "Differential Equations 1 (Notes).pdf",
+        name: "Differential Equations 1",
         url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/notes/8.+Differential+Equations+1+(Notes).pdf"
     },
     {
-        name: "Differential Equations 2 (Notes).pdf",
+        name: "Differential Equations 2",
         url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/notes/9.+Differential+Equations+2+(Notes).pdf"
     },
     {
-        name: "Probability and Statistics (Notes).pdf",
+        name: "Probability and Statistics",
         url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/notes/10.+Probability+and+Statistics+(Notes).pdf"
     },
 ];
 
 const  exercises = [
     {
-        name: "Multivariable Calculus (Exercises).pdf",
+        name: "Multivariable Calculus",
         url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/exercises/1.+Multivariable+Calculus+(Exercises).pdf"
     },
     {
-        name: "Functions and Approximations (Exercises).pdf",
+        name: "Functions and Approximations",
         url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/exercises/2.+Functions+and+Approximations+(Exercises).pdf"
     },
     {
-        name: "Python (Exercises).pdf",
+        name: "Python",
         url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/exercises/3.+Python+(Exercises).pdf"
     },
     {
-        name: "Linear Algebra 1 (Exercises).pdf",
+        name: "Linear Algebra 1",
         url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/exercises/4.+Linear+Algebra+1+(Exercises).pdf"
     },
     {
-        name: "Linear Algebra 2 (Exercises).pdf",
+        name: "Linear Algebra 2",
         url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/exercises/5.+Linear+Algebra+2+(Exercises).pdf"
     },
     {
-        name: "Linear Algebra 3 (Exercises).pdf",
+        name: "Linear Algebra 3",
         url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/exercises/6.+Linear+Algebra+3+(Exercises).pdf"
     },
     {
-        name: "Fourier Analysis (Exercises).pdf",
+        name: "Fourier Analysis",
         url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/exercises/7.+Fourier+Analysis+(Exercises).pdf"
     },
     {
-        name: "Differential Equations 1 (Exercises).pdf",
+        name: "Differential Equations 1",
         url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/exercises/8.+Differential+Equations+1+(Exercises).pdf"
     },
     {
-        name: "Differential Equations 2 (Exercises).pdf",
+        name: "Differential Equations 2",
         url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/exercises/9.+Differential+Equations+2+(Exercises).pdf"
     },
     {
-        name: "Probability and Statistics (Exercises).pdf",
+        name: "Probability and Statistics",
         url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/exercises/10.+Probability+and+Statistics+(Exercises).pdf"
     },
 ];
 
-const  solutions = [
-    {
-        name: "Multivariable Calculus (Solutions).pdf",
-        url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/solutions/1.+Multivariable+Calculus+(Solutions).pdf"
-    },
-    {
-        name: "Functions and Approximations (Solutions).pdf",
-        url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/solutions/2.+Functions+and+Approximations+(Solutions).pdf"
-    },
-    {
-        name: "Python (Solutions).pdf",
-        url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/solutions/3.+Python+(Solutions).pdf"
-    },
-    {
-        name: "Linear Algebra 1 (Solutions).pdf",
-        url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/solutions/4.+Linear+Algebra+1+(Solutions).pdf"
-    },
-    {
-        name: "Linear Algebra 2 (Solutions).pdf",
-        url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/solutions/5.+Linear+Algebra+2+(Solutions).pdf"
-    },
-    {
-        name: "Linear Algebra 3 (Solutions).pdf",
-        url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/solutions/6.+Linear+Algebra+3+(Solutions).pdf"
-    },
-    {
-        name: "Fourier Analysis (Solutions).pdf",
-        url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/solutions/7.+Fourier+Analysis+(Solutions).pdf"
-    },
-    {
-        name: "Differential Equations 1 (Solutions).pdf",
-        url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/solutions/8.+Differential+Equations+1+(Solutions).pdf"
-    },
-    {
-        name: "Differential Equations 2 (Solutions).pdf",
-        url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/solutions/9.+Differential+Equations+2+(Solutions).pdf"
-    },
-    {
-        name: "Probability and Statistics (Solutions).pdf",
-        url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/solutions/10.+Probability+and+Statistics+(Solutions).pdf"
-    },
-];
-    
-    
+  
     export default class Content extends React.Component {
         render() {
             const notesList = notes.map((pdf) => {
                 // TODO find place to store PDFs
                 return (<li>
-                            <a href={pdf.url}>{pdf.name}</a>
+                            <a href={pdf.url} target="_blank">{pdf.name}</a>
                         </li>)
             })
             const exerciseList = exercises.map((pdf) => {
                 // TODO find place to store PDFs
                 return (<li>
-                            <a href={pdf.url}>{pdf.name}</a>
+                            <a href={pdf.url} target="_blank">{pdf.name}</a>
                         </li>)
         });
 
     return (
         <div>
             <h2 className="major">Content</h2>
+
+
+            <p> We hope this content is useful for students, instructors, and anyone in between. 
+                As published, this content is intended for personal use only. If you would like 
+                to include this work in any other capacity, such as the construction of your own
+                 Math Bootcamp, please obtain written permission by contacting us here. </p>
+                 
             <h3 className="minor">Full Text</h3>
-                <a href={"https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/BootCamp2021.pdf"}>Bootcamp Packet 2021</a>
+                <a href={"https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/BootCamp2021_new.pdf"} target="_blank">Bootcamp Packet 2021</a>
                 <p> </p>
             <h3 className="minor">Notes</h3>
             <ol>
