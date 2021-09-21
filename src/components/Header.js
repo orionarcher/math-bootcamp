@@ -4,16 +4,16 @@ import React from 'react'
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <span className="icon fa-diamond"></span>
+      <span className="icon fa-flask"></span>
     </div>
     <div className="content">
       <div className="inner">
         <h1>Berkeley Math Bootcamp</h1>
         <p>
-          A 5-day mathematics intensive at the {' '}
+          <b>A 5-day mathematics intensive at the {' '}
           <a href="https://chemistry.berkeley.edu/home">UC Berkeley College of Chemistry</a>.{' '}
           <br />
-          Designed by and designed for graduate students.{' '}
+          Designed by and for graduate students.{' '}</b>
         </p>
       </div>
     </div>
@@ -38,7 +38,7 @@ const Header = props => (
           </button>
         </li>
         <li>
-          <button
+          <button class="bold-button"
             onClick={() => {
               props.onOpenArticle('content')
             }}
