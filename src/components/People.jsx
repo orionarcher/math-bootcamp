@@ -23,7 +23,7 @@ const  peopleu = [
         email: "djasrasaria@berkeley.edu",
     },
     {
-        name: "Elliot Rossome",
+        name: "Elliot Rossomme",
         photo: elliot,
         email: "elliot_rossomme@berkeley.edu",
     },
@@ -69,13 +69,20 @@ const people = peopleu.sort((a, b) => a.name.split(' ')[1] > b.name.split(' ')[1
 export default class People extends React.Component {
   render() {
 
-    const people_divs = people.map((person) => {
-        // TODO find place to store PDFs
+    function peopleDivMaker (peopleArray) {
+        selected = people.filter(person.name)
+        temper = people.map((person) => {
+            return (<div class='person'>
+                        <img class="person-picture" src={person.photo} alt="Instructor"></img>
+                        <h3 class="person-name">{person.name}</h3>
+                    </div>)
+       });
+    }
+    
+    const leader_divs = people.map((person) => {
         return (<div class='person'>
                     <img class="person-picture" src={person.photo} alt="Instructor"></img>
                     <h3 class="person-name">{person.name}</h3>
-                    {/* <p class="person-email">{person.email}</p> */}
-
                 </div>)
     });
 
@@ -92,9 +99,16 @@ export default class People extends React.Component {
                 of classes, the students below wrote all the content, lectures,
                 exercises, and solutions.
             </p>
-            <div id="people_grid">
-                {people_divs}
-            </div>
+            <h3 className="minor align-center">Content Developers and Lecturers</h3>
+                <div class="people_grid">
+                    {leader_divs}
+                </div>
+            <h3 className="minor align-center">Discussion Leaders</h3>
+            
+            <h3 className="minor align-center">Founders</h3>
+            
+            <h3 className="minor align-center">Alumni</h3>
+
             
         </div>
     )
