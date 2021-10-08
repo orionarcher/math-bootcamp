@@ -4,86 +4,86 @@ import React from 'react'
 const  notes = [
     {
         name: "Multivariable Calculus",
-        url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/notes/1.+Multivariable+Calculus+(Notes).pdf"
+        url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/chapters/Chapter_1.pdf"
     },
     {
         name: "Functions and Approximations",
-        url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/notes/2.+Functions+and+Approximations+(Notes).pdf"
+        url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/chapters/Chapter_2.pdf"
     },
     {
         name: "Python",
-        url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/notes/3.+Python+(Notes).pdf"
+        url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/chapters/Chapter_3.pdf"
     },
     {
         name: "Linear Algebra 1",
-        url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/notes/4.+Linear+Algebra+1+(Notes).pdf"
+        url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/chapters/Chapter_4.pdf"
     },
     {
         name: "Linear Algebra 2",
-        url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/notes/5.+Linear+Algebra+2+(Notes).pdf"
+        url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/chapters/Chapter_5.pdf"
     },
     {
         name: "Linear Algebra 3",
-        url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/notes/6.+Linear+Algebra+3+(Notes).pdf"
+        url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/chapters/Chapter_6.pdf"
     },
     {
         name: "Fourier Analysis",
-        url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/notes/7.+Fourier+Analysis+(Notes).pdf"
+        url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/chapters/Chapter_7.pdf"
     },
     {
         name: "Differential Equations 1",
-        url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/notes/8.+Differential+Equations+1+(Notes).pdf"
+        url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/chapters/Chapter_8.pdf"
     },
     {
         name: "Differential Equations 2",
-        url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/notes/9.+Differential+Equations+2+(Notes).pdf"
+        url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/chapters/Chapter_9.pdf"
     },
     {
         name: "Probability and Statistics",
-        url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/notes/10.+Probability+and+Statistics+(Notes).pdf"
+        url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/chapters/Chapter_10.pdf"
     },
 ];
 
 const  exercises = [
     {
         name: "Multivariable Calculus",
-        url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/exercises/1.+Multivariable+Calculus+(Exercises).pdf"
+        url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/problems/Problems_1.pdf"
     },
     {
         name: "Functions and Approximations",
-        url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/exercises/2.+Functions+and+Approximations+(Exercises).pdf"
+        url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/problems/Problems_2.pdf"
     },
     {
         name: "Python",
-        url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/exercises/3.+Python+(Exercises).pdf"
+        url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/problems/Problems_3.pdf"
     },
     {
         name: "Linear Algebra 1",
-        url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/exercises/4.+Linear+Algebra+1+(Exercises).pdf"
+        url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/problems/Problems_4.pdf"
     },
     {
         name: "Linear Algebra 2",
-        url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/exercises/5.+Linear+Algebra+2+(Exercises).pdf"
+        url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/problems/Problems_5.pdf"
     },
     {
         name: "Linear Algebra 3",
-        url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/exercises/6.+Linear+Algebra+3+(Exercises).pdf"
+        url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/problems/Problems_6.pdf"
     },
     {
         name: "Fourier Analysis",
-        url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/exercises/7.+Fourier+Analysis+(Exercises).pdf"
+        url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/problems/Problems_7.pdf"
     },
     {
         name: "Differential Equations 1",
-        url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/exercises/8.+Differential+Equations+1+(Exercises).pdf"
+        url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/problems/Problems_8.pdf"
     },
     {
         name: "Differential Equations 2",
-        url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/exercises/9.+Differential+Equations+2+(Exercises).pdf"
+        url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/problems/Problems_9.pdf"
     },
     {
         name: "Probability and Statistics",
-        url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/exercises/10.+Probability+and+Statistics+(Exercises).pdf"
+        url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/problems/Problems_10.pdf"
     },
 ];
 
@@ -114,7 +114,7 @@ const  exercises = [
                  Math Bootcamp, please contact us. </p>
                  
             <h3 className="minor">Full Text</h3>
-                <a href={"https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/BootCamp2021_new.pdf"} target="_blank" rel="noreferrer" >Bootcamp Packet 2021</a>
+                <a href={"https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/BootCamp2021.pdf"} target="_blank" rel="noreferrer" >Bootcamp Packet 2021</a>
                 <p> </p>
             <h3 className="minor">Notes</h3>
             <ol>
@@ -126,6 +126,20 @@ const  exercises = [
             </ol>
             <h3 className="Notes">Solutions</h3>
             <p>Please contact us if you would like the solutions!</p>
+            <p class='cc-license'>
+                <a href="http://www.chemmathbootcamp.com/">
+                    Math Bootcamp Notes: Preparation for Graduate Physical Chemistry Courses
+                </a> by <span > Rachel Clune, Orion Cohen, Avishek Das, Dipti Jasrasaria, Elliot Rossomme </span> 
+                is licensed under 
+                <a href="http://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1" target="_blank"> CC BY-NC 4.0
+                    <img class='cc-icon'
+                         src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"></img>
+                    <img class='cc-icon' 
+                         src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></img>
+                    <img class='cc-icon'
+                         src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"></img>
+                </a>
+            </p>
         </div>
     )
   }
