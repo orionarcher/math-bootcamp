@@ -7,3 +7,4 @@ workspace.code-workspace
 # Build directory
 /public
 .DS_Store
+.idea
