@@ -3,7 +3,7 @@ import React from 'react'
 
 const  notes = [
     {
-        name: "Integration & Differentiation",
+        name: "Integration and Differentiation",
         url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/chapters/Chapter_1.pdf"
     },
     {
