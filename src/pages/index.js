@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout'
+import MetaTags from 'react-meta-tags';
 
 import Header from '../components/Header'
 import Main from '../components/Main'
@@ -94,6 +95,12 @@ class IndexPage extends React.Component {
       <Layout location={this.props.location}>
         <div className={`body ${this.state.loading} ${this.state.isArticleVisible ? 'is-article-visible' : ''}`}>
           <div id="wrapper">
+            <MetaTags>
+              <meta id="meta-description" name="description" content="A 5-day mathematics
+              intensive at the UC Berkeley College of Chemistry." />
+              <meta id="og-title" property="og:title" content="Berkeley Math Bootcamp" />
+              <meta id="og-image" property="og:image" content="src/images/campanille.jpg" />
+            </MetaTags>
             <Header onOpenArticle={this.handleOpenArticle} timeout={this.state.timeout} />
             <Main
               isArticleVisible={this.state.isArticleVisible}
