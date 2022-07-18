@@ -9,6 +9,7 @@ import richard from '../images/instructors/Richard.jpg'
 import bailey from '../images/instructors/Bailey.jpg'
 import aditya from '../images/instructors/Aditya.jpg'
 import tarini from '../images/instructors/Tarini.jpg'
+import harrison from '../images/instructors/Harrison.jpeg'
 
 const  peopleu = [
     {
@@ -64,29 +65,32 @@ const  peopleu = [
         name: "Tarini Hardikar",
         photo: tarini,
         email: "tarinihardikar@berkeley.edu",
+    },
+    {
+        name: "Harrison Tuckman",
+        photo: harrison,
+        email: "hgtuckman@berkeley.edu",
     }
 ];
 // alphabetize
 const people = peopleu.sort((a, b) => a.name.split(' ')[1] > b.name.split(' ')[1] ? 1 : -1)
 const leaderNames = [
     "Orion Cohen", 
-    "Dipti Jasrasaria", 
-    "Elliot Rossomme",
-    "Rachel Clune", 
-    "Avishek Das",
+    "Rachel Clune",
     "Tarini Hardikar",
     "Aditya Singh",
     "Richard Kang",
     "Sonja Bumann",
     "Bailey Nebgen",
+    "Harrison Tuckman"
 ]
 const leaders = people.filter(person => leaderNames.includes(person.name))
 const lecturerNames = [
-    "Orion Cohen", 
-    "Dipti Jasrasaria", 
-    "Elliot Rossomme",
-    "Rachel Clune", 
-    "Avishek Das",
+    "Sonja Bumann",
+    "Rachel Clune",
+    "Orion Cohen",
+    "Aditya Singh",
+    "Harrison Tuckman",
 ]
 const lecturers = people.filter(person => lecturerNames.includes(person.name))
 const founderNames = [
@@ -96,6 +100,13 @@ const founderNames = [
     "Avishek Das",
 ]
 const founders = people.filter(person => founderNames.includes(person.name))
+const alumniNames = [
+    "Dipti Jasrasaria",
+    "Elliot Rossomme",
+    "Avishek Das",
+]
+const alumni = people.filter(person => alumniNames.includes(person.name))
+
 
 export default class People extends React.Component {
   render() {
@@ -125,6 +136,7 @@ export default class People extends React.Component {
     const leaderDivs = peopleDivMaker(leaders);
     const lecturerDivs = peopleDivMaker(lecturers);
     const founderDivs = peopleDivMaker(founders);
+    const alumniDivs = peopleDivMaker(alumni);
 
 
     return (
@@ -152,7 +164,9 @@ export default class People extends React.Component {
                     {founderDivs}
                 </div>    
             <h3 className="minor align-center">Alumni</h3>
-            <p>None</p>
+            <div className="people_grid">
+                {alumniDivs}
+            </div>
 
             
         </div>
