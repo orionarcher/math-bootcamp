@@ -3,44 +3,40 @@ import React from 'react'
 
 const  notes = [
     {
-        name: "Multivariable Calculus",
+        name: "Integration & Differentiation",
         url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/chapters/Chapter_1.pdf"
     },
     {
-        name: "Functions and Approximations",
+        name: "Probability and Statistics",
         url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/chapters/Chapter_2.pdf"
     },
     {
-        name: "Python",
+        name: "Linear Algebra 1",
         url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/chapters/Chapter_3.pdf"
     },
     {
-        name: "Linear Algebra 1",
+        name: "Linear Algebra 2",
         url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/chapters/Chapter_4.pdf"
     },
     {
-        name: "Linear Algebra 2",
+        name: "Linear Algebra 3",
         url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/chapters/Chapter_5.pdf"
     },
     {
-        name: "Linear Algebra 3",
+        name: "Fourier Analysis",
         url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/chapters/Chapter_6.pdf"
     },
     {
-        name: "Fourier Analysis",
+        name: "Functions and Approximations",
         url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/chapters/Chapter_7.pdf"
     },
     {
-        name: "Differential Equations 1",
+        name: "Differential Equations",
         url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/chapters/Chapter_8.pdf"
     },
     {
-        name: "Differential Equations 2",
+        name: "Python Programming",
         url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/chapters/Chapter_9.pdf"
-    },
-    {
-        name: "Probability and Statistics",
-        url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/chapters/Chapter_10.pdf"
     },
 ];
 
@@ -114,13 +110,13 @@ const  exercises = [
                  Math Bootcamp, please contact us. </p>
                  
             <h3 className="minor">Full Text</h3>
-                <a href={"https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/BootCamp2021.pdf"} target="_blank" rel="noreferrer" >Bootcamp Packet 2021</a>
+                <a href={"https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/BootCamp2022.pdf"} target="_blank" rel="noreferrer" >Bootcamp Packet 2022</a>
                 <p> </p>
-            <h3 className="minor">Notes</h3>
+            <h3 className="minor">Notes (2022)</h3>
             <ol>
                 {notesList}
             </ol>
-            <h3 className="Notes">Exercises</h3>
+            <h3 className="Notes">Exercises (2021)</h3>
             <ol>
                 {exerciseList}
             </ol>
