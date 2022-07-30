@@ -10,6 +10,8 @@ import bailey from '../images/instructors/Bailey.jpg'
 import aditya from '../images/instructors/Aditya.jpg'
 import tarini from '../images/instructors/Tarini.jpg'
 import harrison from '../images/instructors/Harrison.jpeg'
+import christian from '../images/instructors/Christian.jpg'
+import tommy from '../images/instructors/Tommy.jpg'
 
 const  peopleu = [
     {
@@ -70,6 +72,18 @@ const  peopleu = [
         name: "Harrison Tuckman",
         photo: harrison,
         email: "hgtuckman@berkeley.edu",
+    },
+    {
+        name: "Christian Tanner",
+        photo: christian,
+        email: "hgtuckman@berkeley.edu",
+        website: "http://www.cchem.berkeley.edu/nsggrp/group.html",
+    },
+    {
+        name: "Tommy Lin",
+        photo: tommy,
+        email: "hgtuckman@berkeley.edu",
+        website: "https://www.linkedin.com/in/tommy-lin/",
     }
 ];
 // alphabetize
@@ -82,7 +96,9 @@ const leaderNames = [
     "Richard Kang",
     "Sonja Bumann",
     "Bailey Nebgen",
-    "Harrison Tuckman"
+    "Harrison Tuckman",
+    "Tommy Lin",
+    "Christian Tanner"
 ]
 const leaders = people.filter(person => leaderNames.includes(person.name))
 const lecturerNames = [
