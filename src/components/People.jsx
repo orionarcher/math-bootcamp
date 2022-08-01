@@ -68,7 +68,7 @@ const  peopleu = [
         name: "Tarini Hardikar",
         photo: tarini,
         email: "tarinihardikar@berkeley.edu",
-        website: "www.linkedin.com/in/tarinihardikar",
+        website: "https://www.linkedin.com/in/tarinihardikar/",
     },
     {
         name: "Harrison Tuckman",
