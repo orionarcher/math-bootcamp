@@ -13,6 +13,7 @@ import harrison from '../images/instructors/Harrison.jpeg'
 import christian from '../images/instructors/Christian.jpg'
 import tommy from '../images/instructors/Tommy.jpg'
 import michelle from '../images/instructors/Michelle.png'
+import wendy from '../images/instructors/Wendy.png'
 
 const  peopleu = [
     {
@@ -91,6 +92,11 @@ const  peopleu = [
         name: "Michelle Anderson",
         photo: michelle,
         email: "hgtuckman@berkeley.edu",
+    },
+    {
+        name: "Wendy Billings",
+        photo: wendy,
+        email: "hgtuckman@berkeley.edu",
     }
 ];
 // alphabetize
@@ -106,7 +112,8 @@ const leaderNames = [
     "Harrison Tuckman",
     "Tommy Lin",
     "Christian Tanner",
-    "Michelle Anderson"
+    "Michelle Anderson",
+    "Wendy Billings"
 ]
 const leaders = people.filter(person => leaderNames.includes(person.name))
 const lecturerNames = [
