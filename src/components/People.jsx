@@ -14,6 +14,23 @@ import christian from '../images/instructors/Christian.jpg'
 import tommy from '../images/instructors/Tommy.jpg'
 import michelle from '../images/instructors/Michelle.png'
 import wendy from '../images/instructors/Wendy.png'
+import alex from '../images/instructors/Alex.jpg'
+import songela from '../images/instructors/Songela.jpg'
+import stephen from '../images/instructors/Stephen.jpg'
+import xiao from '../images/instructors/Xiao.jpg'
+import sam from '../images/instructors/Sam.jpg'
+import rahoul from '../images/instructors/Rahoul.jpg'
+import chaitali from '../images/instructors/Chaitali.jpeg'
+import dylanA from '../images/instructors/DylanA.jpeg'
+import dylanC from '../images/instructors/DylanC.png'
+import jason from '../images/instructors/Jason.jpeg'
+import korina from '../images/instructors/Korina.jpeg'
+import ozgur from '../images/instructors/Ozgur.jpeg'
+import sohom from '../images/instructors/Sohom.jpg'
+import wilma from '../images/instructors/Wilma.jpg'
+import ygor from '../images/instructors/Ygor.jpg'
+import qasim from '../images/instructors/Qasim.jpg'
+
 
 const  peopleu = [
     {
@@ -97,31 +114,116 @@ const  peopleu = [
         name: "Wendy Billings",
         photo: wendy,
         email: "hgtuckman@berkeley.edu",
-    }
-];
+    },
+    {
+        name: "Aleksandr Smirnov",
+        photo: alex,
+        email: "alexsmirnov@berkeley.edu",
+    },
+    {
+        name: "Songela Chen",
+        photo: songela,
+        email: "songela@berkeley.edu",
+    },
+    {
+        name: "Stephen Quiton",
+        photo: stephen,
+        email: "stephen.quiton@berkeley.edu",
+    },
+    {
+        name: "Xiao Liu",
+        photo: xiao,
+        email: "xiao_liu@berkeley.edu",
+    },
+    {
+        name: "Sam Oaks-Leaf",
+        photo: sam,
+        email: "sam_oaks@berkeley.edu",
+    },
+    {
+        name: "Rahoul Banerjee Ghosh",
+        photo: rahoul,
+        email: "rahoulbanerjeeghosh@berkeley.edu",
+    },
+    {
+        name: "Özgür Şahin",
+        photo: ozgur,
+        email: "ozgur_sahin@berkeley.edu",
+    },
+    {
+        name: "Dylan Almeida",
+        photo: dylanA,
+        email: "daalmeida@berkeley.edu",
+    },
+    {
+        name: "Dylan Cleveland",
+        photo: dylanC,
+        email: "dcleveland@berkeley.edu",
+    },
+    {
+        name: "Jason Tae Yi",
+        photo: jason,
+        email: "jtyi@berkeley.edu",
+    },
+    {
+        name: "Korina Vlahos",
+        photo: korina,
+        email: "kvlahos@berkeley.edu",
+    },
+    {
+        name: "Sohom Das",
+        photo: sohom,
+        email: "sohom_das@berkeley.edu",
+    },
+    {
+        name: "Wilma Rishko",
+        photo: wilma,
+        email: "wrishko@berkeley.edu",
+    },
+    {
+        name: "Ygor de Santana y Moura",
+        photo: ygor,
+        email: "ygor@berkeley.edu",
+    },
+    {
+        name: "Chaitali Shah",
+        photo: chaitali,
+        email: "chaitali_shah@berkeley.edu",
+    },
+    {
+        name: "Qasim Javed",
+        photo: qasim,
+        email: "qasim_javed@berkeley.edu",
+    },
+]
 // alphabetize
 const people = peopleu.sort((a, b) => a.name.split(' ')[1] > b.name.split(' ')[1] ? 1 : -1)
 const leaderNames = [
-    "Orion Cohen", 
-    "Rachel Clune",
-    "Tarini Hardikar",
-    "Aditya Singh",
-    "Richard Kang",
-    "Sonja Bumann",
-    "Bailey Nebgen",
-    "Harrison Tuckman",
-    "Tommy Lin",
-    "Christian Tanner",
-    "Michelle Anderson",
-    "Wendy Billings"
+    "Aleksandr Smirnov",
+    "Rahoul Banerjee Ghosh",
+    "Xiao Liu",
+    "Sam Oaks-Leaf",
+    "Songela Chen",
+    "Stephen Quiton",
+    "Chaitali Shah",
+    "Özgür Şahin",
+    "Dylan Almeida",
+    "Dylan Cleveland",
+    "Jason Tae Yi",
+    "Korina Vlahos",
+    "Sohom Das",
+    "Wilma Rishko",
+    "Ygor de Santana y Moura",
+    "Qasim Javed",
 ]
 const leaders = people.filter(person => leaderNames.includes(person.name))
 const lecturerNames = [
-    "Sonja Bumann",
-    "Rachel Clune",
-    "Orion Cohen",
-    "Aditya Singh",
-    "Harrison Tuckman",
+    
+    "Sam Oaks-Leaf",
+    "Songela Chen",
+    "Stephen Quiton",
+    "Korina Vlahos",
+    "Jason Tae Yi",
 ]
 const lecturers = people.filter(person => lecturerNames.includes(person.name))
 const founderNames = [
@@ -135,6 +237,18 @@ const alumniNames = [
     "Dipti Jasrasaria",
     "Elliot Rossomme",
     "Avishek Das",
+    "Orion Cohen", 
+    "Rachel Clune",
+    "Tarini Hardikar",
+    "Aditya Singh",
+    "Richard Kang",
+    "Sonja Bumann",
+    "Bailey Nebgen",
+    "Harrison Tuckman",
+    "Tommy Lin",
+    "Christian Tanner",
+    "Michelle Anderson",
+    "Wendy Billings",
 ]
 const alumni = people.filter(person => alumniNames.includes(person.name))
 
