@@ -40,7 +40,7 @@ const  notes = [
     },
 ];
 
-const  exercises = [
+const  exercises2021 = [
     {
         name: "Multivariable Calculus",
         url: "https://ucb-math-bootcamp.s3.us-west-1.amazonaws.com/problems/Problems_1.pdf"
@@ -83,8 +83,42 @@ const  exercises = [
     },
 ];
 
-  
-    export default class Content extends React.Component {
+const  exercises2025 = [
+    {
+        name: "Multivariable Calculus",
+        url: "https://math-bootcamp-oaksleaf.s3.us-east-2.amazonaws.com/Multivariable_Calculus.pdf"
+    },
+    {
+        name: "Functions and Approximations",
+        url: "https://math-bootcamp-oaksleaf.s3.us-east-2.amazonaws.com/Functions_and_Approximations.pdf"
+    },
+    {
+        name: "Linear Algebra 1",
+        url: "https://math-bootcamp-oaksleaf.s3.us-east-2.amazonaws.com/Linear_Algebra_1.pdf"
+    },
+    {
+        name: "Linear Algebra 2",
+        url: "https://math-bootcamp-oaksleaf.s3.us-east-2.amazonaws.com/Linear_Algebra_2.pdf"
+    },
+    {
+        name: "Linear Algebra 3",
+        url: "https://math-bootcamp-oaksleaf.s3.us-east-2.amazonaws.com/Linear_Algebra_3.pdf"
+    },
+    {
+        name: "Fourier Analysis",
+        url: "https://math-bootcamp-oaksleaf.s3.us-east-2.amazonaws.com/Fourier_Analysis.pdf"
+    },
+    {
+        name: "Differential Equations",
+        url: "https://math-bootcamp-oaksleaf.s3.us-east-2.amazonaws.com/Differential_Equations.pdf"
+    },
+    {
+        name: "Probability and Statistics",
+        url: "https://math-bootcamp-oaksleaf.s3.us-east-2.amazonaws.com/Probability_and_Statistics.pdf"
+    },
+];
+
+export default class Content extends React.Component {
         render() {
             const notesList = notes.map((pdf) => {
                 // TODO find place to store PDFs
@@ -92,7 +126,13 @@ const  exercises = [
                             <a href={pdf.url} target="_blank">{pdf.name}</a>
                         </li>)
             })
-            const exerciseList = exercises.map((pdf) => {
+            const exerciseList2021 = exercises2021.map((pdf) => {
+                // TODO find place to store PDFs
+                return (<li>
+                            <a href={pdf.url} target="_blank">{pdf.name}</a>
+                        </li>)
+            });
+            const exerciseList2025 = exercises2025.map((pdf) => {
                 // TODO find place to store PDFs
                 return (<li>
                             <a href={pdf.url} target="_blank">{pdf.name}</a>
@@ -116,9 +156,18 @@ const  exercises = [
             <ol>
                 {notesList}
             </ol>
+            <h3 className="Notes">Exercises (2025)</h3>
+            <ol>
+                {exerciseList2025}
+                <li>
+                    <a href="https://math-bootcamp-oaksleaf.s3.us-east-2.amazonaws.com/Python_Examples_2025.zip" target="_blank" rel="noreferrer">
+                        Python Walkthrough (Jupyter)
+                    </a>
+                </li>
+            </ol>
             <h3 className="Notes">Exercises (2021)</h3>
             <ol>
-                {exerciseList}
+                {exerciseList2021}
             </ol>
             <h3 className="Notes">Solutions</h3>
             <p>Please contact us if you would like the solutions!</p>
